@@ -16,7 +16,7 @@ export async function getServerSideProps(context) {
 export default function backOne({data}) {
     
   return (
-    <div className="w-full bg-cyan-500 h-screen p-10">
+    <div className="w-full bg-cyan-500 h-full p-10">
         <p> 
             SE LE HACE UNA PETICION AL BACK Q NUNCA VA TENER CONTACTO CON EL FRONT END.
             SE GENERA HTML EN CADA PETICION

@@ -19,7 +19,7 @@ const [state, setState]= useState()
     }
 
   return (
-    <div className=' bg-zinc-500 w-full h-screen'>
+    <div className=' bg-zinc-500 w-full h-full'>
          <h3 className=' text-gray-200 text-4xl'>ME TRAE LA DATA COMO LO HACE REACT DEL LADO DEL CLIENT </h3>
         <h3 className=' text-gray-200 text-4xl'>Esta informacion me traeeeeeee:</h3>
     <h2 className='text-4xl  text-gray-200'>{state&& state[0].title}</h2> 

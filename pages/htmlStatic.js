@@ -21,7 +21,7 @@ export default function htmlStatic({data}) {
 
 
   return (
-    <div className='w-full h-screen bg-amber-600'>
+    <div className='w-full h-full bg-amber-600'>
         <h2 className='  text-gray-100 text-3xl'>
             En produccion  los datos se van a convertir en html estatico,
             carga inmediata, es optimo para situaciones rigidas, no dinamicas
