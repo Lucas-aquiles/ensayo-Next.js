@@ -2,7 +2,7 @@ import { data } from 'autoprefixer'
 import React ,{useEffect,useState}from 'react'
 import Link from 'next/link'
 
-export default function sideClient() {
+export default function SideClient() {
 
 const [state, setState]= useState()
 
